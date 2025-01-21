@@ -1,4 +1,48 @@
-<h1>Welcome to The Orange Press Bindery website!</h1>
-<h2>This site is under construction. It will be available soon!</h2>
+---
+layout: default
+title: The Orange Press Bindery 
+description: Website dedicated to Bookbinding by The Orange Press Bindery
+featured_image: /images/social.jpg
+---
 
-<a href="https://www.instagram.com/theorangebindery/" target="_blank">Follow us on Instagram.</a>
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>Welcome to the Orange Press Bindery!</h1>
+		<p>Here you will find details about our bindings.</p>
+
+	</div>
+
+</section>
+
+<section class="portfolio">
+
+	<div class="content-wrap portfolio-wrap">
+
+		{% for project in site.projects reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ project.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>
