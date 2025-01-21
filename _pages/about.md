@@ -5,7 +5,7 @@ description: The Orange Press Bindery is Rafael's Toscano's website dedicated to
 featured_image: /images/about/about.JPG
 ---
 
-![notebook created at Andryi's workshop](/images/demo/about.JPG)
+![notebook created at Andryi's workshop]({{site.baseurl}}/images/demo/about.JPG)
 *Notebook created at [Andrzej's Workshop](https://malakhovskii.com/). Photo by Andrzej.*
 
 ## About Us
