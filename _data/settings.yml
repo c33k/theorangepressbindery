@@ -20,7 +20,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 200
-  footer_tagline: Website dedicated to bookbinding
+  footer_tagline: Website dedicated to bookbinding. 
 
 grid_settings:
   overlay_opacity: 0.8
