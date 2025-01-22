@@ -1,11 +1,11 @@
 ---
-title: 'Workshop with Dimitris in Athens'
+title: 'Workshop with Andrzej in Poznań, Poland'
 date: 2025-01-22 00:00:00
 description: This post is about the workshop I had with Andrzej Malakhovskyy in Poznań, Poland.
-featured_image: '/images/demo/about.jpg'
+featured_image: '/images/demo/about.JPG'
 ---
 
-![](/images/demo/about.jpg)
+![]({{site.baseurl}}/images/demo/about.JPG)
 
 ## Demo content
 

@@ -2,10 +2,10 @@
 title: 'Workshop with Dimitris in Athens'
 date: 2023-04-04 00:00:00
 description: This post is about the workshop I had with Dimitris in Athens, Greece.
-featured_image: '/images/demo/demo-square.jpg'
+featured_image: '/images/demo/design.jpg'
 ---
 
-![](/images/demo/design.jpg)
+![]({{site.baseurl}}/images/demo/design.jpg)
 
 ## Demo content
 
